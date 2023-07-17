@@ -7,7 +7,8 @@ import globalPluginHandler
 import config
 import addonHandler
 import NVDAHelper
-from gui import SettingsPanel, NVDASettingsDialog, guiHelper, nvdaControls
+from gui import guiHelper, nvdaControls
+from gui.settingsDialogs import SettingsPanel, NVDASettingsDialog
 
 addonHandler.initTranslation()
 
